@@ -1,0 +1,17 @@
+/*
+Theme Name: Semut
+Theme URI: http://localhost/semut
+Author: OpenAI
+Author URI: https://openai.com
+Description: Tema WordPress custom ringan untuk project Semut.
+Version: 1.0.0
+Requires at least: 6.0
+Tested up to: 6.8
+Requires PHP: 7.4
+Text Domain: semut
+*/
+
+/*
+ * File ini dipakai WordPress untuk registrasi theme.
+ * Styling utama ada di assets/css/main.css.
+ */
