@@ -1,9 +1,13 @@
 body {
-  font-family: 'Nunito', sans-serif;
+  background: #ffffff;
+  color: #253b34;
+  font-family: 'Plus Jakarta Sans', Arial, sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
 }
 
 .font-display {
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Nunito', Arial, sans-serif;
 }
 
 .organic {
@@ -19,7 +23,7 @@ body {
 }
 
 .section-wash {
-  background: linear-gradient(180deg, rgba(217, 243, 244, 0.18), rgba(255, 251, 239, 0));
+  background: linear-gradient(180deg, rgba(217, 243, 244, 0.14), rgba(255, 255, 255, 0));
 }
 
 .slider-track {
@@ -110,7 +114,7 @@ html {
   min-width: 250px;
   border: 1px solid rgba(30, 106, 88, 0.1);
   border-radius: 1.2rem;
-  background: #fffbef;
+  background: #ffffff;
   box-shadow: 0 24px 70px rgba(36, 52, 46, 0.12);
   padding: 1rem 0.8rem 0.8rem;
   opacity: 0;
@@ -213,7 +217,7 @@ html {
 
 /* Fallback custom utilities in case Tailwind CDN config loads late */
 .bg-cream {
-  background-color: #fffbef;
+  background-color: #ffffff;
 }
 
 .bg-white\/80 {
@@ -401,17 +405,16 @@ html {
 
 .semut-entry-title {
   margin: 0;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Nunito', Arial, sans-serif;
   font-size: clamp(2rem, 4vw, 3.5rem);
   line-height: 1.08;
-  color: #294038;
+  color: #253b34;
 }
 
 .semut-page-title {
   max-width: 14ch;
   font-size: clamp(1.85rem, 3.4vw, 3.3rem);
   line-height: 1.1;
-  letter-spacing: -0.03em;
 }
 
 .semut-entry-thumb {
@@ -429,9 +432,9 @@ html {
 }
 
 .semut-prose {
-  color: rgba(41, 64, 56, 0.82);
+  color: rgba(37, 59, 52, 0.84);
   font-size: 1rem;
-  line-height: 1.9;
+  line-height: 1.85;
 }
 
 .semut-prose > * {
@@ -444,7 +447,7 @@ html {
 .semut-prose h4 {
   margin-top: 2rem;
   margin-bottom: 0.85rem;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Nunito', Arial, sans-serif;
   line-height: 1.2;
   color: #1e6a58;
 }
@@ -594,7 +597,7 @@ html {
 
 .semut-sidebar-title {
   margin: 0;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Nunito', Arial, sans-serif;
   font-size: 1.45rem;
   line-height: 1.2;
   color: #1e6a58;

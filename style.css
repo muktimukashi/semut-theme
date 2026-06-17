@@ -9,9 +9,10 @@ Requires at least: 6.0
 Tested up to: 6.8
 Requires PHP: 7.4
 Text Domain: semut
+Tags: custom-logo, editor-style, featured-images, custom-menu
 */
 
 /*
  * File ini dipakai WordPress untuk registrasi theme.
- * Styling utama ada di assets/css/main.css.
+ * Styling utama ada di assets/css/home.css dan asset per template.
  */

@@ -15,6 +15,8 @@ function semut_theme_setup() {
 	add_theme_support( 'title-tag' );
 	add_theme_support( 'post-thumbnails' );
 	add_theme_support( 'custom-logo' );
+	add_theme_support( 'editor-styles' );
+	add_editor_style( 'assets/css/editor-style.css' );
 	add_theme_support(
 		'html5',
 		array(
@@ -39,7 +41,7 @@ add_action( 'after_setup_theme', 'semut_theme_setup' );
 function semut_enqueue_assets() {
 	wp_enqueue_style(
 		'semut-fonts',
-		'https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&family=Quicksand:wght@500;600;700&display=swap',
+		'https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap',
 		array(),
 		null
 	);
@@ -64,12 +66,12 @@ window.tailwind.config = {
 				orangeFun: '#FF8A2A',
 				earth: '#C99655',
 				skySoft: '#D9F3F4',
-				cream: '#FFFBEF',
+				cream: '#FFFFFF',
 				ink: '#294038'
 			},
 			fontFamily: {
-				body: ['Nunito', 'sans-serif'],
-				display: ['Quicksand', 'sans-serif']
+				body: ['Plus Jakarta Sans', 'sans-serif'],
+				display: ['Nunito', 'sans-serif']
 			}
 		}
 	}
@@ -91,6 +93,23 @@ JS;
 		'1.0.0',
 		true
 	);
+
+	if ( is_page_template( 'page-lowongan-kerja.php' ) ) {
+		wp_enqueue_style(
+			'semut-career',
+			get_template_directory_uri() . '/assets/css/lowongan-kerja.css',
+			array( 'semut-home' ),
+			'1.0.0'
+		);
+
+		wp_enqueue_script(
+			'semut-career',
+			get_template_directory_uri() . '/assets/js/lowongan-kerja.js',
+			array(),
+			'1.0.0',
+			true
+		);
+	}
 }
 add_action( 'wp_enqueue_scripts', 'semut_enqueue_assets' );
 
