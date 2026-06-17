@@ -37,7 +37,7 @@ $contact_map_output = ! empty( $contact_map_embed ) ? $contact_map_embed : $cont
 		<div class="mt-10 grid gap-10 md:grid-cols-[1.15fr_.85fr_1fr_1.1fr]">
 			<div>
 				<h3 class="font-display text-2xl font-bold"><?php bloginfo( 'name' ); ?></h3>
-				<p class="mt-4 max-w-sm text-sm leading-7 text-white/65"><?php esc_html_e( 'The Natural School - sekolah alam inklusif berazaskan Islam dengan suasana belajar yang natural, hangat, dan menyenangkan.', 'semut' ); ?></p>
+				<p class="mt-4 max-w-sm text-sm leading-7 text-white/65"><?php esc_html_e( 'Sekolah Semut–Semut adalah sekolah inklusif berazaskan Islam, yang menyediakan pendidikan formal yang memerdekakan anak sesuai potensi dan kecerdasan.', 'semut' ); ?></p>
 				<p class="mt-5 inline-flex rounded-full bg-white/10 px-4 py-2 text-xs font-black uppercase tracking-[.18em] text-leafLight"><?php esc_html_e( 'Open Admission 2026 / 2027', 'semut' ); ?></p>
 			</div>
 
