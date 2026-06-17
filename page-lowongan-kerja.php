@@ -121,8 +121,6 @@ $hero_image   = has_post_thumbnail() ? get_the_post_thumbnail_url( get_the_ID(),
 								</ol>
 							</div>
 						</div>
-
-						<a class="career-button career-button--secondary" href="<?php echo esc_url( 'mailto:' . $career_email . '?subject=Lamaran%20' . rawurlencode( $job['title'] ) ); ?>"><?php esc_html_e( 'Lamar Posisi Ini', 'semut' ); ?></a>
 					</article>
 				<?php endforeach; ?>
 			</div>
