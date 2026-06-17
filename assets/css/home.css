@@ -65,6 +65,10 @@ html {
   text-decoration: none;
 }
 
+.semut-brand-text {
+  min-width: 0;
+}
+
 .semut-nav--desktop .menu {
   display: flex;
   align-items: center;
@@ -560,6 +564,10 @@ html {
 }
 
 @media (max-width: 767px) {
+  .semut-brand-text {
+    display: none;
+  }
+
   .semut-page-shell {
     padding: 1.5rem;
   }

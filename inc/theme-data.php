@@ -200,15 +200,15 @@ function semut_get_homepage_data() {
 		'testimonials' => array(
 			array(
 				'quote'  => 'Anak kami lebih percaya diri, senang bercerita, dan menikmati proses belajar.',
-				'author' => 'Orang Tua Murid',
+				'author' => '-',
 			),
 			array(
 				'quote'  => 'Lingkungannya hangat. Anak belajar bukan karena dipaksa, tapi karena penasaran.',
-				'author' => 'Orang Tua Murid',
+				'author' => '-',
 			),
 			array(
 				'quote'  => 'Kegiatan outdoor dan seni membuat anak lebih mandiri dan berani mencoba.',
-				'author' => 'Orang Tua Murid',
+				'author' => '-',
 			),
 		),
 	);

@@ -7,7 +7,7 @@
 
 $contact_eyebrow = semut_get_home_field( 'contact_eyebrow', 'Siap Berkunjung?' );
 $contact_title = semut_get_home_field( 'contact_title', 'Mari kenal lebih dekat dengan ruang tumbuh anak di Semut-Semut.' );
-$contact_description = semut_get_home_field( 'contact_description', 'Kami terbuka untuk kunjungan sekolah, tanya program, dan ngobrol santai bersama orang tua yang sedang mencari sekolah dasar yang hangat dan natural.' );
+$contact_description = semut_get_home_field( 'contact_description', 'Kami dengan senang hati menerima kunjungan calon orang tua dan peserta didik untuk mengenal lingkungan sekolah dan berkonsultasi mengenai pendidikan dasar yang sesuai dengan kebutuhan anak.' );
 $contact_whatsapp_link = semut_get_home_field( 'contact_whatsapp_link', 'https://wa.me/6281283330186' );
 $contact_whatsapp_text = semut_get_home_field( 'contact_whatsapp_text', 'Chat WhatsApp' );
 $contact_phone = semut_get_home_field( 'contact_phone', 'WhatsApp: 0812 8333 0186' );

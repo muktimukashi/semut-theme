@@ -22,7 +22,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	<div class="mx-auto flex max-w-7xl items-center justify-between gap-4 px-5 py-4">
 		<a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="flex shrink-0 items-center gap-3">
 			<img src="<?php echo esc_url( semut_get_logo_url() ); ?>" alt="<?php echo esc_attr( get_bloginfo( 'name' ) ); ?>" class="h-11 w-auto object-contain sm:h-14">
-			<div>
+			<div class="semut-brand-text">
 				<p class="font-display text-xl font-bold leading-none text-pine"><?php bloginfo( 'name' ); ?></p>
 				<p class="text-xs font-bold tracking-wide text-earth"><?php bloginfo( 'description' ); ?></p>
 			</div>
